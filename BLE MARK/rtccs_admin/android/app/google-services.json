@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "887000663599",
+    "firebase_url": "https://rtccsattendancesystem-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rtccsattendancesystem",
+    "storage_bucket": "rtccsattendancesystem.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887000663599:android:7b08acfc2aa8579644a8da",
+        "android_client_info": {
+          "package_name": "com.rtccs.admin.rtccs_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJ9WX83WNovOt40U8qfRz05YVLkBST3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887000663599:android:8f5cf6fcc97ff9d444a8da",
+        "android_client_info": {
+          "package_name": "com.rtccs.admin.rtccs_student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJ9WX83WNovOt40U8qfRz05YVLkBST3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

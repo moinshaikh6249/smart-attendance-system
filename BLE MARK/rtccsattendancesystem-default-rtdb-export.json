@@ -1,0 +1,568 @@
+{
+  "attendance": {
+    "school_001": {
+      "class_001": {
+        "2025-11-28": {
+          "4862931c-728f-46ea-9e3d-642e01d78831": {
+            "classID": "class_001",
+            "date": "2025-11-28",
+            "method": "QR",
+            "schoolID": "school_001",
+            "studentUUID": "4862931c-728f-46ea-9e3d-642e01d78831",
+            "subjectID": "",
+            "timestamp": 1764324928508
+          },
+          "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3": {
+            "classID": "class_001",
+            "date": "2025-11-28",
+            "method": "BLE",
+            "schoolID": "school_001",
+            "studentUUID": "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3",
+            "subjectID": "",
+            "timestamp": 1764340003844
+          }
+        },
+        "subject_001": {
+          "2024-01-15": {
+            "uuid_001": {
+              "classID": "class_001",
+              "date": "2024-01-15",
+              "method": "BLE",
+              "schoolID": "school_001",
+              "studentUUID": "uuid_001",
+              "subjectID": "subject_001",
+              "timestamp": 1705312200000
+            }
+          }
+        },
+        "subject_002": {
+          "2024-01-15": {
+            "uuid_002": {
+              "classID": "class_001",
+              "date": "2024-01-15",
+              "facePhotoUrl": "https://example.com/photo1.jpg",
+              "method": "QR",
+              "schoolID": "school_001",
+              "studentUUID": "uuid_002",
+              "subjectID": "subject_002",
+              "timestamp": 1705315800000
+            }
+          },
+          "2025-11-27": {
+            "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3": {
+              "classID": "class_001",
+              "date": "2025-11-27",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3",
+              "subjectID": "subject_002",
+              "timestamp": 1764313860313
+            }
+          },
+          "2025-11-28": {
+            "4862931c-728f-46ea-9e3d-642e01d78831": {
+              "classID": "class_001",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "4862931c-728f-46ea-9e3d-642e01d78831",
+              "subjectID": "subject_002",
+              "timestamp": 1764313980563
+            },
+            "8640f0fb-0026-482e-b150-7e457cf3ae21": {
+              "classID": "class_001",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "8640f0fb-0026-482e-b150-7e457cf3ae21",
+              "subjectID": "subject_002",
+              "timestamp": 1764339591891
+            },
+            "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3": {
+              "classID": "class_001",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3",
+              "subjectID": "subject_002",
+              "timestamp": 1764312809816
+            },
+            "uuid_001": {
+              "classID": "class_001",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "uuid_001",
+              "subjectID": "subject_002",
+              "timestamp": 1764319492004
+            },
+            "uuid_002": {
+              "classID": "class_001",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_001",
+              "studentUUID": "uuid_002",
+              "subjectID": "subject_002",
+              "timestamp": 1764312803759
+            }
+          }
+        }
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "2025-11-28": {
+          "c7d919dd-52a2-46a6-81a2-a575464015da": {
+            "classID": "class_004",
+            "date": "2025-11-28",
+            "method": "QR",
+            "schoolID": "school_002",
+            "studentUUID": "c7d919dd-52a2-46a6-81a2-a575464015da",
+            "subjectID": "",
+            "timestamp": 1764325251387
+          }
+        },
+        "subject_006": {
+          "2025-11-28": {
+            "c7d919dd-52a2-46a6-81a2-a575464015da": {
+              "classID": "class_004",
+              "date": "2025-11-28",
+              "method": "Manual",
+              "schoolID": "school_002",
+              "studentUUID": "c7d919dd-52a2-46a6-81a2-a575464015da",
+              "subjectID": "subject_006",
+              "timestamp": 1764325203818
+            }
+          }
+        }
+      }
+    }
+  },
+  "attendance_logs": {
+    "uuid_001": {
+      "log_001": {
+        "classID": "class_001",
+        "date": "2024-01-15",
+        "method": "BLE",
+        "schoolID": "school_001",
+        "studentUUID": "uuid_001",
+        "subjectID": "subject_001",
+        "timestamp": 1705312200000
+      }
+    },
+    "uuid_002": {
+      "log_002": {
+        "classID": "class_001",
+        "date": "2024-01-15",
+        "facePhotoUrl": "https://example.com/photo1.jpg",
+        "method": "QR",
+        "schoolID": "school_001",
+        "studentUUID": "uuid_002",
+        "subjectID": "subject_002",
+        "timestamp": 1705315800000
+      }
+    }
+  },
+  "classes": {
+    "school_001": {
+      "class_001": {
+        "id": "class_001",
+        "name": "Class 10A",
+        "schoolId": "school_001"
+      },
+      "class_002": {
+        "id": "class_002",
+        "name": "Class 10B",
+        "schoolId": "school_001"
+      },
+      "class_003": {
+        "id": "class_003",
+        "name": "Class 11A",
+        "schoolId": "school_001"
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "id": "class_004",
+        "name": "Class 9A",
+        "schoolId": "school_002"
+      }
+    }
+  },
+  "pending_approvals": {
+    "02b2c840-3063-4fd5-8b46-a6e01ebbad47": {
+      "classId": "class_004",
+      "name": "IshowDhanush",
+      "phoneNumber": "9988776655",
+      "registrationDate": "2025-11-28T15:49:14.826166",
+      "schoolId": "school_002",
+      "status": "pending",
+      "subjectId": "subject_006",
+      "uuid": "02b2c840-3063-4fd5-8b46-a6e01ebbad47"
+    },
+    "1b53998b-42e0-41a7-a0f0-721231885710": {
+      "classId": "class_002",
+      "name": "Spidy",
+      "phoneNumber": "7384441786",
+      "registrationDate": "2025-11-28T19:04:53.032738",
+      "schoolId": "school_001",
+      "status": "pending",
+      "subjectId": "subject_005",
+      "uuid": "1b53998b-42e0-41a7-a0f0-721231885710"
+    },
+    "93099877-10c2-46aa-8ec6-1cf24c706d25": {
+      "classId": "class_004",
+      "name": "IshowDhanush",
+      "phoneNumber": "9988776655",
+      "registrationDate": "2025-11-28T15:49:16.556371",
+      "schoolId": "school_002",
+      "status": "pending",
+      "subjectId": "subject_006",
+      "uuid": "93099877-10c2-46aa-8ec6-1cf24c706d25"
+    },
+    "bdffefbd-e31e-4cd2-88a3-868a90dd32db": {
+      "classId": "class_002",
+      "name": "Spidy",
+      "phoneNumber": "7384441786",
+      "registrationDate": "2025-11-28T19:05:05.125814",
+      "schoolId": "school_001",
+      "status": "pending",
+      "subjectId": "subject_005",
+      "uuid": "bdffefbd-e31e-4cd2-88a3-868a90dd32db"
+    },
+    "f5adabae-a328-4a0a-abf3-917ea09f9edc": {
+      "classId": "class_004",
+      "name": "IshowDhanush",
+      "phoneNumber": "9988776655",
+      "registrationDate": "2025-11-28T15:47:07.386541",
+      "schoolId": "school_002",
+      "status": "pending",
+      "subjectId": "subject_006",
+      "uuid": "f5adabae-a328-4a0a-abf3-917ea09f9edc"
+    }
+  },
+  "pending_attendance_requests": {
+    "teacher_001": {
+      "req_1705312200000": {
+        "classID": "class_001",
+        "date": "2024-01-15",
+        "requestId": "req_1705312200000",
+        "schoolID": "school_001",
+        "status": "pending",
+        "studentName": "John Doe",
+        "studentUUID": "uuid_001",
+        "subjectID": "subject_001",
+        "teacherId": "teacher_001",
+        "teacherName": "John Teacher",
+        "timestamp": 1705312200000
+      }
+    }
+  },
+  "qr_sessions": {
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "current": {
+            "active": false,
+            "createdAt": 1764305617217,
+            "expiresAt": 1764305676733,
+            "token": "64084000-a9e4-4a05-b59d-fc01b33a239a"
+          }
+        },
+        "subject_002": {
+          "current": {
+            "active": true,
+            "createdAt": 1764339326673,
+            "expiresAt": 1764339355895,
+            "token": "e393c826-55e1-4552-b731-c6f1b380b6a9"
+          }
+        }
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "subject_006": {
+          "current": {
+            "active": true,
+            "createdAt": 1764325237700,
+            "expiresAt": 1764325297420,
+            "token": "93e760c4-419a-4ce9-8651-5168d321e955"
+          }
+        }
+      }
+    }
+  },
+  "schools": {
+    "school_001": {
+      "id": "school_001",
+      "name": "RTCCS Main Campus"
+    },
+    "school_002": {
+      "id": "school_002",
+      "name": "RTCCS North Campus"
+    }
+  },
+  "student_attendance_requests": {
+    "uuid_001": {
+      "req_1705312200000": {
+        "classID": "class_001",
+        "date": "2024-01-15",
+        "requestId": "req_1705312200000",
+        "schoolID": "school_001",
+        "status": "pending",
+        "studentName": "John Doe",
+        "studentUUID": "uuid_001",
+        "subjectID": "subject_001",
+        "teacherId": "teacher_001",
+        "teacherName": "John Teacher",
+        "timestamp": 1705312200000
+      }
+    }
+  },
+  "students": {
+    "4862931c-728f-46ea-9e3d-642e01d78831": {
+      "classId": "class_001",
+      "name": "Moin",
+      "phoneNumber": "738441786",
+      "registrationDate": "2025-11-28T12:41:39.065226",
+      "schoolId": "school_001",
+      "subjectId": "subject_002",
+      "uuid": "4862931c-728f-46ea-9e3d-642e01d78831"
+    },
+    "8640f0fb-0026-482e-b150-7e457cf3ae21": {
+      "classId": "class_001",
+      "name": "Moin",
+      "phoneNumber": "738441786",
+      "registrationDate": "2025-11-28T12:41:54.159520",
+      "schoolId": "school_001",
+      "subjectId": "subject_002",
+      "uuid": "8640f0fb-0026-482e-b150-7e457cf3ae21"
+    },
+    "c7d919dd-52a2-46a6-81a2-a575464015da": {
+      "classId": "class_004",
+      "name": "IshowDhanush",
+      "phoneNumber": "9988776655",
+      "registrationDate": "2025-11-28T15:46:18.884888",
+      "schoolId": "school_002",
+      "subjectId": "subject_006",
+      "uuid": "c7d919dd-52a2-46a6-81a2-a575464015da"
+    },
+    "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3": {
+      "classId": "class_001",
+      "name": "Abhishek",
+      "phoneNumber": "8355855988",
+      "registrationDate": "2025-11-28T08:49:26.066679",
+      "schoolId": "school_001",
+      "subjectId": "subject_002",
+      "uuid": "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3"
+    },
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "uuid_001": {
+            "classId": "class_001",
+            "name": "John Doe",
+            "phoneNumber": "+1234567890",
+            "registrationDate": "2024-01-15T10:30:00.000Z",
+            "schoolId": "school_001",
+            "subjectId": "subject_001",
+            "uuid": "uuid_001"
+          }
+        },
+        "subject_002": {
+          "4862931c-728f-46ea-9e3d-642e01d78831": {
+            "classId": "class_001",
+            "name": "Moin",
+            "phoneNumber": "738441786",
+            "registrationDate": "2025-11-28T12:41:39.065226",
+            "schoolId": "school_001",
+            "subjectId": "subject_002",
+            "uuid": "4862931c-728f-46ea-9e3d-642e01d78831"
+          },
+          "8640f0fb-0026-482e-b150-7e457cf3ae21": {
+            "classId": "class_001",
+            "name": "Moin",
+            "phoneNumber": "738441786",
+            "registrationDate": "2025-11-28T12:41:54.159520",
+            "schoolId": "school_001",
+            "subjectId": "subject_002",
+            "uuid": "8640f0fb-0026-482e-b150-7e457cf3ae21"
+          },
+          "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3": {
+            "classId": "class_001",
+            "name": "Abhishek",
+            "phoneNumber": "8355855988",
+            "registrationDate": "2025-11-28T08:49:26.066679",
+            "schoolId": "school_001",
+            "subjectId": "subject_002",
+            "uuid": "f4dbd882-96c4-4ad4-80a1-8e6af238a3e3"
+          },
+          "uuid_002": {
+            "classId": "class_001",
+            "name": "Jane Smith",
+            "phoneNumber": "+1234567891",
+            "registrationDate": "2024-01-15T11:00:00.000Z",
+            "schoolId": "school_001",
+            "subjectId": "subject_002",
+            "uuid": "uuid_002"
+          }
+        }
+      },
+      "class_002": {
+        "subject_004": {
+          "uuid_003": {
+            "classId": "class_002",
+            "name": "Mike Johnson",
+            "phoneNumber": "+1234567892",
+            "registrationDate": "2024-01-15T11:30:00.000Z",
+            "schoolId": "school_001",
+            "subjectId": "subject_004",
+            "uuid": "uuid_003"
+          }
+        }
+      },
+      "class_003": {
+        "subject_003": {
+          "uuid_004": {
+            "classId": "class_003",
+            "email": "sarah.wilson@example.com",
+            "name": "Sarah Wilson",
+            "phoneNumber": "+1234567893",
+            "registrationDate": "2024-01-15T12:00:00.000Z",
+            "schoolId": "school_001",
+            "subjectId": "subject_003",
+            "uuid": "uuid_004"
+          }
+        }
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "subject_006": {
+          "c7d919dd-52a2-46a6-81a2-a575464015da": {
+            "classId": "class_004",
+            "name": "IshowDhanush",
+            "phoneNumber": "9988776655",
+            "registrationDate": "2025-11-28T15:46:18.884888",
+            "schoolId": "school_002",
+            "subjectId": "subject_006",
+            "uuid": "c7d919dd-52a2-46a6-81a2-a575464015da"
+          }
+        }
+      }
+    },
+    "uuid_001": {
+      "classId": "class_001",
+      "name": "John Doe",
+      "phoneNumber": "+1234567890",
+      "registrationDate": "2024-01-15T10:30:00.000Z",
+      "schoolId": "school_001",
+      "subjectId": "subject_001",
+      "uuid": "uuid_001"
+    },
+    "uuid_002": {
+      "classId": "class_001",
+      "name": "Jane Smith",
+      "phoneNumber": "+1234567891",
+      "registrationDate": "2024-01-15T11:00:00.000Z",
+      "schoolId": "school_001",
+      "subjectId": "subject_002",
+      "uuid": "uuid_002"
+    },
+    "uuid_003": {
+      "classId": "class_002",
+      "name": "Mike Johnson",
+      "phoneNumber": "+1234567892",
+      "registrationDate": "2024-01-15T11:30:00.000Z",
+      "schoolId": "school_001",
+      "subjectId": "subject_004",
+      "uuid": "uuid_003"
+    },
+    "uuid_004": {
+      "classId": "class_003",
+      "email": "sarah.wilson@example.com",
+      "name": "Sarah Wilson",
+      "phoneNumber": "+1234567893",
+      "registrationDate": "2024-01-15T12:00:00.000Z",
+      "schoolId": "school_001",
+      "subjectId": "subject_003",
+      "uuid": "uuid_004"
+    }
+  },
+  "subjects": {
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "classId": "class_001",
+          "id": "subject_001",
+          "name": "Mathematics"
+        },
+        "subject_002": {
+          "classId": "class_001",
+          "id": "subject_002",
+          "name": "Physics"
+        },
+        "subject_003": {
+          "classId": "class_001",
+          "id": "subject_003",
+          "name": "Chemistry"
+        }
+      },
+      "class_002": {
+        "subject_004": {
+          "classId": "class_002",
+          "id": "subject_004",
+          "name": "English"
+        },
+        "subject_005": {
+          "classId": "class_002",
+          "id": "subject_005",
+          "name": "History"
+        }
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "subject_006": {
+          "classId": "class_004",
+          "id": "subject_006",
+          "name": "Science"
+        }
+      }
+    }
+  },
+  "teachers": {
+    "TcFqk4p3byZozS7MDMIdeCRvuUu2": {
+      "bleUuid": "ccf1a0e1-008e-4a5a-88e5-0954e623d22e",
+      "createdAt": 1764339786267,
+      "email": "moin@mail.com",
+      "id": "TcFqk4p3byZozS7MDMIdeCRvuUu2",
+      "name": "Teacher",
+      "updatedAt": 1764339786267
+    },
+    "sKPtPy5ex3NWO0iZ3m325uJyGLR2": {
+      "bleUuid": "926867f0-88fb-4f45-be18-499105ca9989",
+      "createdAt": 1764299619520,
+      "email": "abhi@mail.com",
+      "id": "sKPtPy5ex3NWO0iZ3m325uJyGLR2",
+      "name": "Teacher",
+      "updatedAt": 1764299619520
+    },
+    "teacher_001": {
+      "bleUuid": "550e8400-e29b-41d4-a716-446655440000",
+      "createdAt": 1705312200000,
+      "email": "teacher@rtccs.com",
+      "id": "teacher_001",
+      "name": "John Teacher",
+      "updatedAt": 1705312200000
+    },
+    "teacher_002": {
+      "bleUuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "createdAt": 1705312200000,
+      "email": "teacher2@rtccs.com",
+      "id": "teacher_002",
+      "name": "Jane Teacher",
+      "updatedAt": 1705312200000
+    }
+  }
+}

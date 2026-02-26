@@ -1,0 +1,294 @@
+{
+  "schools": {
+    "school_001": {
+      "id": "school_001",
+      "name": "RTCCS Main Campus"
+    },
+    "school_002": {
+      "id": "school_002",
+      "name": "RTCCS North Campus"
+    }
+  },
+  "classes": {
+    "school_001": {
+      "class_001": {
+        "id": "class_001",
+        "name": "Class 10A",
+        "schoolId": "school_001"
+      },
+      "class_002": {
+        "id": "class_002",
+        "name": "Class 10B",
+        "schoolId": "school_001"
+      },
+      "class_003": {
+        "id": "class_003",
+        "name": "Class 11A",
+        "schoolId": "school_001"
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "id": "class_004",
+        "name": "Class 9A",
+        "schoolId": "school_002"
+      }
+    }
+  },
+  "subjects": {
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "id": "subject_001",
+          "name": "Mathematics",
+          "classId": "class_001"
+        },
+        "subject_002": {
+          "id": "subject_002",
+          "name": "Physics",
+          "classId": "class_001"
+        },
+        "subject_003": {
+          "id": "subject_003",
+          "name": "Chemistry",
+          "classId": "class_001"
+        }
+      },
+      "class_002": {
+        "subject_004": {
+          "id": "subject_004",
+          "name": "English",
+          "classId": "class_002"
+        },
+        "subject_005": {
+          "id": "subject_005",
+          "name": "History",
+          "classId": "class_002"
+        }
+      }
+    },
+    "school_002": {
+      "class_004": {
+        "subject_006": {
+          "id": "subject_006",
+          "name": "Science",
+          "classId": "class_004"
+        }
+      }
+    }
+  },
+  "teachers": {
+    "teacher_001": {
+      "id": "teacher_001",
+      "email": "teacher@rtccs.com",
+      "name": "John Teacher",
+      "bleUuid": "550e8400-e29b-41d4-a716-446655440000",
+      "createdAt": 1705312200000,
+      "updatedAt": 1705312200000
+    },
+    "teacher_002": {
+      "id": "teacher_002",
+      "email": "teacher2@rtccs.com",
+      "name": "Jane Teacher",
+      "bleUuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "createdAt": 1705312200000,
+      "updatedAt": 1705312200000
+    }
+  },
+  "students": {
+    "uuid_001": {
+      "uuid": "uuid_001",
+      "name": "John Doe",
+      "phoneNumber": "+1234567890",
+      "schoolId": "school_001",
+      "classId": "class_001",
+      "subjectId": "subject_001",
+      "registrationDate": "2024-01-15T10:30:00.000Z",
+      "profilePhotoUrl": null
+    },
+    "uuid_002": {
+      "uuid": "uuid_002",
+      "name": "Jane Smith",
+      "phoneNumber": "+1234567891",
+      "schoolId": "school_001",
+      "classId": "class_001",
+      "subjectId": "subject_002",
+      "registrationDate": "2024-01-15T11:00:00.000Z",
+      "profilePhotoUrl": null
+    },
+    "uuid_003": {
+      "uuid": "uuid_003",
+      "name": "Mike Johnson",
+      "phoneNumber": "+1234567892",
+      "schoolId": "school_001",
+      "classId": "class_002",
+      "subjectId": "subject_004",
+      "registrationDate": "2024-01-15T11:30:00.000Z",
+      "profilePhotoUrl": null
+    },
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "uuid_001": {
+            "uuid": "uuid_001",
+            "name": "John Doe",
+            "phoneNumber": "+1234567890",
+            "schoolId": "school_001",
+            "classId": "class_001",
+            "subjectId": "subject_001",
+            "registrationDate": "2024-01-15T10:30:00.000Z",
+            "profilePhotoUrl": null
+          }
+        },
+        "subject_002": {
+          "uuid_002": {
+            "uuid": "uuid_002",
+            "name": "Jane Smith",
+            "phoneNumber": "+1234567891",
+            "schoolId": "school_001",
+            "classId": "class_001",
+            "subjectId": "subject_002",
+            "registrationDate": "2024-01-15T11:00:00.000Z",
+            "profilePhotoUrl": null
+          }
+        }
+      },
+      "class_002": {
+        "subject_004": {
+          "uuid_003": {
+            "uuid": "uuid_003",
+            "name": "Mike Johnson",
+            "phoneNumber": "+1234567892",
+            "schoolId": "school_001",
+            "classId": "class_002",
+            "subjectId": "subject_004",
+            "registrationDate": "2024-01-15T11:30:00.000Z",
+            "profilePhotoUrl": null
+          }
+        }
+      }
+    }
+  },
+  "attendance": {
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "2024-01-15": {
+            "uuid_001": {
+              "studentUUID": "uuid_001",
+              "schoolID": "school_001",
+              "classID": "class_001",
+              "subjectID": "subject_001",
+              "date": "2024-01-15",
+              "method": "BLE",
+              "facePhotoUrl": null,
+              "timestamp": 1705312200000
+            }
+          }
+        },
+        "subject_002": {
+          "2024-01-15": {
+            "uuid_002": {
+              "studentUUID": "uuid_002",
+              "schoolID": "school_001",
+              "classID": "class_001",
+              "subjectID": "subject_002",
+              "date": "2024-01-15",
+              "method": "QR",
+              "facePhotoUrl": "https://example.com/photo1.jpg",
+              "timestamp": 1705315800000
+            }
+          }
+        }
+      }
+    }
+  },
+  "attendance_logs": {
+    "uuid_001": {
+      "log_001": {
+        "studentUUID": "uuid_001",
+        "schoolID": "school_001",
+        "classID": "class_001",
+        "subjectID": "subject_001",
+        "date": "2024-01-15",
+        "method": "BLE",
+        "facePhotoUrl": null,
+        "timestamp": 1705312200000
+      }
+    },
+    "uuid_002": {
+      "log_002": {
+        "studentUUID": "uuid_002",
+        "schoolID": "school_001",
+        "classID": "class_001",
+        "subjectID": "subject_002",
+        "date": "2024-01-15",
+        "method": "QR",
+        "facePhotoUrl": "https://example.com/photo1.jpg",
+        "timestamp": 1705315800000
+      }
+    }
+  },
+  "pending_attendance_requests": {
+    "teacher_001": {
+      "req_1705312200000": {
+        "requestId": "req_1705312200000",
+        "studentUUID": "uuid_001",
+        "studentName": "John Doe",
+        "teacherId": "teacher_001",
+        "teacherName": "John Teacher",
+        "schoolID": "school_001",
+        "classID": "class_001",
+        "subjectID": "subject_001",
+        "date": "2024-01-15",
+        "timestamp": 1705312200000,
+        "status": "pending"
+      }
+    }
+  },
+  "student_attendance_requests": {
+    "uuid_001": {
+      "req_1705312200000": {
+        "requestId": "req_1705312200000",
+        "studentUUID": "uuid_001",
+        "studentName": "John Doe",
+        "teacherId": "teacher_001",
+        "teacherName": "John Teacher",
+        "schoolID": "school_001",
+        "classID": "class_001",
+        "subjectID": "subject_001",
+        "date": "2024-01-15",
+        "timestamp": 1705312200000,
+        "status": "pending"
+      }
+    }
+  },
+  "pending_approvals": {
+    "uuid_004": {
+      "uuid": "uuid_004",
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@example.com",
+      "phoneNumber": "+1234567893",
+      "schoolId": "school_001",
+      "classId": "class_003",
+      "subjectId": "subject_003",
+      "registrationDate": "2024-01-15T12:00:00.000Z",
+      "status": "pending"
+    }
+  },
+  "qr_sessions": {
+    "school_001": {
+      "class_001": {
+        "subject_001": {
+          "current": {
+            "token": "some-token",
+            "active": true,
+            "createdAt": 1705312200000,
+            "expiresAt": 1705319400000
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "schools": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "classes": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "subjects": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "teachers": {
+      ".read": "auth != null",
+      "$teacherId": {
+        ".read": "auth != null",
+        ".write": "auth != null && $teacherId == auth.uid",
+        ".validate": "newData.hasChildren(['id', 'email', 'name', 'bleUuid']) && newData.child('id').val() == $teacherId"
+      }
+    },
+    "students": {
+      "$uuid": {
+        ".read": "auth != null || (data.exists() && data.child('uuid').val() == $uuid)",
+        ".write": "auth != null",
+        "$schoolId": {
+          "$classId": {
+            "$subjectId": {
+              "$studentUuid": {
+                ".read": "auth != null",
+                ".write": "auth != null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "attendance": {
+      "$schoolId": {
+        "$classId": {
+          "$subjectId": {
+            "$date": {
+              ".read": "auth != null",
+              ".write": "auth != null",
+              "$studentUUID": {
+                ".read": "auth != null || (data.exists() && data.child('studentUUID').val() == $studentUUID)",
+                ".write": "auth != null"
+              }
+            }
+          }
+        }
+      }
+    },
+    "attendance_logs": {
+      "$uuid": {
+        ".read": "auth != null || $uuid == auth.uid",
+        ".write": "auth != null",
+        "$logId": {
+          ".read": "auth != null || (data.exists() && data.child('studentUUID').val() == $uuid)",
+          ".write": "auth != null"
+        }
+      }
+    },
+    "pending_attendance_requests": {
+      "$teacherId": {
+        ".read": "auth != null && $teacherId == auth.uid",
+        ".write": "auth != null",
+        "$requestId": {
+          ".read": "auth != null && $teacherId == auth.uid",
+          ".write": "auth != null",
+          ".validate": "newData.hasChildren(['requestId', 'studentUUID', 'studentName', 'teacherId', 'teacherName', 'schoolID', 'classID', 'subjectID', 'date', 'timestamp', 'status']) && newData.child('teacherId').val() == $teacherId"
+        }
+      }
+    },
+    "student_attendance_requests": {
+      "$studentUUID": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "$requestId": {
+          ".read": "auth != null",
+          ".write": "auth != null",
+          ".validate": "newData.hasChildren(['requestId', 'studentUUID', 'studentName', 'teacherId', 'teacherName', 'schoolID', 'classID', 'subjectID', 'date', 'timestamp', 'status']) && newData.child('studentUUID').val() == $studentUUID"
+        }
+      }
+    },
+    "pending_approvals": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$uuid": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "qr_sessions": {
+      "$schoolId": {
+        "$classId": {
+          "$subjectId": {
+            ".read": "auth != null",
+            ".write": "auth != null",
+            "current": {
+              ".read": "auth != null",
+              ".write": "auth != null"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

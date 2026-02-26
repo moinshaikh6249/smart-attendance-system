@@ -1,0 +1,20 @@
+{
+  "name": "rtccs-firebase-setup",
+  "version": "1.0.0",
+  "description": "Firebase setup script for RTCCS Smart Attendance System",
+  "main": "setup_firebase_data.js",
+  "scripts": {
+    "setup": "node setup_firebase_data.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0"
+  },
+  "keywords": [
+    "firebase",
+    "rtccs",
+    "attendance",
+    "setup"
+  ],
+  "author": "Abhishek Sharma, Moin Shaikh",
+  "license": "MIT"
+} 
